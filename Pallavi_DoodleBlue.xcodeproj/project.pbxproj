@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		4C2D7ED22504A56700AFBDD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D7ED12504A56700AFBDD3 /* AppDelegate.swift */; };
 		4C2D7ED42504A56700AFBDD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D7ED32504A56700AFBDD3 /* SceneDelegate.swift */; };
-		4C2D7ED62504A56700AFBDD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D7ED52504A56700AFBDD3 /* ViewController.swift */; };
 		4C2D7ED92504A56800AFBDD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2D7ED72504A56800AFBDD3 /* Main.storyboard */; };
-		4C2D7EDC2504A56800AFBDD3 /* Pallavi_DoodleBlue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D7EDA2504A56800AFBDD3 /* Pallavi_DoodleBlue.xcdatamodeld */; };
 		4C2D7EDE2504A56E00AFBDD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C2D7EDD2504A56E00AFBDD3 /* Assets.xcassets */; };
 		4C2D7EE12504A56E00AFBDD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2D7EDF2504A56E00AFBDD3 /* LaunchScreen.storyboard */; };
+		4C2D7EEE2504B8DD00AFBDD3 /* CollCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D7EED2504B8DD00AFBDD3 /* CollCollectionVC.swift */; };
+		4C2D7EF72504C75800AFBDD3 /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D7EF52504C75800AFBDD3 /* CustomHeaderView.swift */; };
+		4C2D7EF82504C75800AFBDD3 /* CustomHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2D7EF62504C75800AFBDD3 /* CustomHeaderView.xib */; };
+		4C2D7EFB2504F4EB00AFBDD3 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D7EFA2504F4EB00AFBDD3 /* DataModel.swift */; };
+		4C2D7EFE2505006C00AFBDD3 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D7EFD2505006C00AFBDD3 /* CollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C2D7ECE2504A56700AFBDD3 /* Pallavi_DoodleBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pallavi_DoodleBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C2D7ED12504A56700AFBDD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C2D7ED32504A56700AFBDD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4C2D7ED52504A56700AFBDD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4C2D7ED82504A56800AFBDD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4C2D7EDB2504A56800AFBDD3 /* Pallavi_DoodleBlue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pallavi_DoodleBlue.xcdatamodel; sourceTree = "<group>"; };
 		4C2D7EDD2504A56E00AFBDD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C2D7EE02504A56E00AFBDD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C2D7EE22504A56E00AFBDD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C2D7EED2504B8DD00AFBDD3 /* CollCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollCollectionVC.swift; sourceTree = "<group>"; };
+		4C2D7EF52504C75800AFBDD3 /* CustomHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
+		4C2D7EF62504C75800AFBDD3 /* CustomHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomHeaderView.xib; sourceTree = "<group>"; };
+		4C2D7EFA2504F4EB00AFBDD3 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		4C2D7EFD2505006C00AFBDD3 /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +64,83 @@
 		4C2D7ED02504A56700AFBDD3 /* Pallavi_DoodleBlue */ = {
 			isa = PBXGroup;
 			children = (
-				4C2D7ED12504A56700AFBDD3 /* AppDelegate.swift */,
-				4C2D7ED32504A56700AFBDD3 /* SceneDelegate.swift */,
-				4C2D7ED52504A56700AFBDD3 /* ViewController.swift */,
-				4C2D7ED72504A56800AFBDD3 /* Main.storyboard */,
-				4C2D7EDD2504A56E00AFBDD3 /* Assets.xcassets */,
-				4C2D7EDF2504A56E00AFBDD3 /* LaunchScreen.storyboard */,
-				4C2D7EE22504A56E00AFBDD3 /* Info.plist */,
-				4C2D7EDA2504A56800AFBDD3 /* Pallavi_DoodleBlue.xcdatamodeld */,
+				4C2D7EEA2504A9B000AFBDD3 /* Source */,
+				4C2D7EEB2504A9CF00AFBDD3 /* Resources */,
 			);
 			path = Pallavi_DoodleBlue;
+			sourceTree = "<group>";
+		};
+		4C2D7EE82504A5F900AFBDD3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4C2D7ED72504A56800AFBDD3 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4C2D7EE92504A99600AFBDD3 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4C2D7ED12504A56700AFBDD3 /* AppDelegate.swift */,
+				4C2D7ED32504A56700AFBDD3 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		4C2D7EEA2504A9B000AFBDD3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4C2D7EF92504F4C100AFBDD3 /* Model */,
+				4C2D7EF42504C5E600AFBDD3 /* HeaderSection */,
+				4C2D7EEC2504AC0800AFBDD3 /* CollectionScene */,
+				4C2D7EFC2505003B00AFBDD3 /* Cell */,
+				4C2D7EE92504A99600AFBDD3 /* Delegate */,
+				4C2D7EE82504A5F900AFBDD3 /* Storyboard */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		4C2D7EEB2504A9CF00AFBDD3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C2D7EE22504A56E00AFBDD3 /* Info.plist */,
+				4C2D7EDD2504A56E00AFBDD3 /* Assets.xcassets */,
+				4C2D7EDF2504A56E00AFBDD3 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4C2D7EEC2504AC0800AFBDD3 /* CollectionScene */ = {
+			isa = PBXGroup;
+			children = (
+				4C2D7EED2504B8DD00AFBDD3 /* CollCollectionVC.swift */,
+			);
+			path = CollectionScene;
+			sourceTree = "<group>";
+		};
+		4C2D7EF42504C5E600AFBDD3 /* HeaderSection */ = {
+			isa = PBXGroup;
+			children = (
+				4C2D7EF52504C75800AFBDD3 /* CustomHeaderView.swift */,
+				4C2D7EF62504C75800AFBDD3 /* CustomHeaderView.xib */,
+			);
+			path = HeaderSection;
+			sourceTree = "<group>";
+		};
+		4C2D7EF92504F4C100AFBDD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C2D7EFA2504F4EB00AFBDD3 /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C2D7EFC2505003B00AFBDD3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4C2D7EFD2505006C00AFBDD3 /* CollectionCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +203,7 @@
 			files = (
 				4C2D7EE12504A56E00AFBDD3 /* LaunchScreen.storyboard in Resources */,
 				4C2D7EDE2504A56E00AFBDD3 /* Assets.xcassets in Resources */,
+				4C2D7EF82504C75800AFBDD3 /* CustomHeaderView.xib in Resources */,
 				4C2D7ED92504A56800AFBDD3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,10 +215,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C2D7ED62504A56700AFBDD3 /* ViewController.swift in Sources */,
+				4C2D7EFB2504F4EB00AFBDD3 /* DataModel.swift in Sources */,
 				4C2D7ED22504A56700AFBDD3 /* AppDelegate.swift in Sources */,
-				4C2D7EDC2504A56800AFBDD3 /* Pallavi_DoodleBlue.xcdatamodeld in Sources */,
+				4C2D7EEE2504B8DD00AFBDD3 /* CollCollectionVC.swift in Sources */,
+				4C2D7EF72504C75800AFBDD3 /* CustomHeaderView.swift in Sources */,
 				4C2D7ED42504A56700AFBDD3 /* SceneDelegate.swift in Sources */,
+				4C2D7EFE2505006C00AFBDD3 /* CollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +365,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Pallavi_DoodleBlue/Info.plist;
+				DEVELOPMENT_TEAM = NPVNN8HT58;
+				INFOPLIST_FILE = Pallavi_DoodleBlue/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +383,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Pallavi_DoodleBlue/Info.plist;
+				DEVELOPMENT_TEAM = NPVNN8HT58;
+				INFOPLIST_FILE = Pallavi_DoodleBlue/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -340,19 +418,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4C2D7EDA2504A56800AFBDD3 /* Pallavi_DoodleBlue.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4C2D7EDB2504A56800AFBDD3 /* Pallavi_DoodleBlue.xcdatamodel */,
-			);
-			currentVersion = 4C2D7EDB2504A56800AFBDD3 /* Pallavi_DoodleBlue.xcdatamodel */;
-			path = Pallavi_DoodleBlue.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4C2D7EC62504A56700AFBDD3 /* Project object */;
 }
