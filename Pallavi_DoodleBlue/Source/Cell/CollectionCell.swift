@@ -11,5 +11,6 @@ import UIKit
 class CollectionCell: UICollectionViewCell {
     @IBOutlet weak var imgView: UIImageView!
     
+    @IBOutlet weak var selectionBtn: UIButton!
     @IBOutlet weak var titleLbl: UILabel!
 }

@@ -25,7 +25,7 @@
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9t-6c-dsU">
-                    <rect key="frame" x="15" y="8" width="252" height="39"/>
+                    <rect key="frame" x="15" y="8" width="42" height="39"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
@@ -40,6 +40,11 @@
                 <constraint firstAttribute="bottom" secondItem="d9t-6c-dsU" secondAttribute="bottom" constant="8" id="jxs-Nh-mP1"/>
                 <constraint firstItem="mcD-bt-WNh" firstAttribute="leading" secondItem="d9t-6c-dsU" secondAttribute="trailing" constant="50" id="y9I-Qb-FBX"/>
             </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="mcD-bt-WNh"/>
+                </mask>
+            </variation>
             <connections>
                 <outlet property="btnCollExp" destination="mcD-bt-WNh" id="wCP-tm-qho"/>
             </connections>
